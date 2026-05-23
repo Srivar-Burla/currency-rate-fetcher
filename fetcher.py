@@ -10,5 +10,5 @@ data = response.json()
 rate = data["rates"]["INR"]
 timestamp = datetime.datetime.now().strftime("%d %b %Y, %I:%M %p")
 
-print("USD to INR Rate: ", rate)
-print("Fetched at: ", timestamp)
+print(f"USD to INR Rate: {rate}")
+print(f"Fetched at: {timestamp}")
